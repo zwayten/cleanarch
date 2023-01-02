@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<data>
+
+    <import type="android.view.View"/>
+
+    <variable name="photosViewModel" type="com.example.clean_arch_zwayten.presentation.car.GetAll_ViewModel"/>
+
+</data>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_car"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+</FrameLayout>
+
+
+</layout>
